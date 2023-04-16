@@ -1,4 +1,3 @@
-import gui
 import streamlit as st
 import functions as fn
 
