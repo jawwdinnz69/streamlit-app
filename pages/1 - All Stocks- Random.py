@@ -1,7 +1,7 @@
 import streamlit as st
 import functions as fn
 
-# https://jawwdinnz69-streamlit-app-gui-lromwn.streamlit.app/
+# https://jawwdinnz69-streamlit-app-about-anahpy.streamlit.app/
 
 st.title('Finviz Graphs')
 

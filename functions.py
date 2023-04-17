@@ -1,6 +1,8 @@
 import yfinance as yf
 import datetime
 import pandas as pd
+import streamlit as st
+import base64
 import numpy as np
 
 # NASDAQ = ['ESOA', 'NSYS', 'LINC', 'DXLG', 'LIVE', 'ZEUS', 'RELL', 'RCMT', 'EDRY', 'DLHC', 'BWMX', 'SPWH', 'TSRI',
@@ -58,6 +60,7 @@ def sort_dict(dict1, reverse=False):
     sorted_by_values = sorted(dict1.items(), key=lambda x: x[1], reverse=reverse)
     sorted_by_values = dict(sorted_by_values)
     return sorted_by_values
+
 
 
 dict_create = dictionary_create(tickers)
